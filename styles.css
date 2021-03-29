@@ -1,0 +1,91 @@
+
+
+.zero{
+width: 90%;
+     height: 70px;
+     background: #4285F4;
+     padding: 20px;
+     border-radius: 50px;
+     
+     clear: left;
+     margin-left: 50px;
+}
+#touch{
+
+     float: left;
+     font-size: 35px;
+     color: black;
+     
+}
+#couch{
+     
+     float:right;
+     font-size: 35px;
+     color:black;
+     
+}
+.first{
+float: left;
+     width: 20%;
+     height: 500px;
+     background: #FBBC05;
+     padding: 20px;
+     border-radius: 50px;
+     color: tomato;
+     clear: left;
+     margin-left: 50px;
+}
+form {
+
+font-size:20px;
+}
+.tp{
+float: right;
+     width: 60%;
+     height: 500px;
+     background: #34A853;
+     padding: 20px;
+     border-radius: 50px;
+     font-color:black;
+     clear: right;
+     margin-right: 50px;
+     font-size: 26;
+     font-style:italic;
+}
+.nichewala{float:left;
+width: 94%;
+     height: 29px;
+     background:#EA4335;
+     padding: 7px;
+     border-radius: 50px;
+     color: BLACK;
+     margin-top:35px;
+}
+#copy{
+
+text-align:center;
+}
+input[type='text']
+{
+padding: 7px 29px 8px;
+
+}
+.Button
+{
+padding: 7px 29px 8px;
+border-radius:50px;
+
+}
+form{
+color:black;
+
+}
+.feed {
+     background-color: #4CAB61;
+     margin: 10px 20px 20px 20px;
+     padding: 10px;
+     border-radius: 5px;
+     box-shadow: -4px -4px 10px #3F3F3F;
+    /* transition:0.2s; */
+    
+ }

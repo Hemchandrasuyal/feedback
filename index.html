@@ -1,0 +1,92 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+
+<div class="zero">
+    
+<h1 id="touch">
+FEEDBACK
+</h1>
+<h1 id="couch">
+MY THOUGHTS
+</h1>
+</div>
+ 
+</head>
+<body>
+<div class="first">
+<form>
+<p>FIRST NAME<sup>*</sup>:
+<input type="text" id="fname" value=""   size="15"
+maxlength="30" />
+</p>
+
+<p>MIDDLE NAME:
+<input type="text" id="mname"   size="15"
+maxlength="30" />
+</p>
+<p>LAST NAME:
+<input type="text" id="lname"   size="15"
+maxlength="30" />
+</p>
+
+<p>SUGGESTION</p>
+<textarea name="sugges" id="sugges" cols="23" rows="4"></textarea>
+<p>GENDER</p>
+<input type="radio" name="gender"  value="pop" />MALE
+
+<input type="radio" name="gender" value="pop" />
+FEMALE
+<br/>
+<br/>
+<input type="button" value="SUBMIT" class="Button" onclick="pknput()">
+<input type="button" value="CLEAR" class="Button" onclick="pknput1()">
+</form>
+</div>
+<div class="tp">
+<p id="tp">
+
+</p>
+    
+</div>
+
+
+
+<footer>
+<div class="nichewala">
+<p id="copy">Designed and developed by HEM CHANDRA SUYAL&#169 2021 All Right Reserved </p>
+</div>
+</footer>
+<script>
+function pknput()
+
+    {
+var a=document.getElementById("fname").value;
+var b=document.getElementById("mname").value;
+var c=document.getElementById("lname").value;
+var d=document.getElementById("sugges").value;
+
+var k=document.getElementById("tp").innerHTML
+k +="<div  class='feed' id='f'>"
+k +="<b>NAME:</b>"+a+'&nbsp'+b+'&nbsp' + c +"</br>"+ "<b>SUGGESTION:</b>"+d;
+
+k+="</div>"
+
+document.getElementById("tp").innerHTML=k
+
+
+
+
+      
+}
+function pknput1()
+{
+document.getElementById("fname").value="";
+document.getElementById("mname").value="";
+document.getElementById("lname").value="";
+document.getElementById("sugges").value="";
+}
+
+</script>
+</body>
+</html>
